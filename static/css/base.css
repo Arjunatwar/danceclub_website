@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12%;
+    padding-left: 38px;
+}
+li{
+    list-style: none;
+    padding: 12px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    color: white;
+    margin-right: 233px;
+}
+nav img{
+    height: 33px;
+    width: 33px;
+    padding-right: 4px;
+}
+#login a{
+    color:white;
+    text-decoration: none;
+}
+#Bottom{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+hr{
+    background-color: gray;
+}

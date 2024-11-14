@@ -1,0 +1,35 @@
+#services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+ol{
+    text-align: center;
+}
+h1:hover{
+    animation:color 2s ease-in-out infinite;
+    cursor: pointer;
+}
+@keyframes color{
+    0%{
+        color: orange;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color:green;
+    }
+    75%{
+        color:pink;
+    }
+    100%{
+        color:violet;
+    }
+}

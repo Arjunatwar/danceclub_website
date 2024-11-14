@@ -1,0 +1,15 @@
+#cont p{
+    text-align: center;
+    padding: 8px;
+    margin-top: 50px;
+}
+.more{
+    text-align: center;
+}
+#cont{
+    align-items: center;
+    justify-content: center;
+}
+#end{
+    margin-bottom: 15px;
+}

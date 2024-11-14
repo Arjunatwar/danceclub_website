@@ -1,0 +1,22 @@
+html 
+    head
+        title dancing club
+        block style
+    body
+        div.container#main
+            nav
+                p#name Dance Club
+                ul
+                    li: a(href='/') Home
+                    li: a(href='/about') About 
+                    li: a(href='/services') Services
+                    li: a(href='/contact') Contact us
+                img(src="../static/img/profile.png", alt="img")
+                p#login: a(href="/login") Login 
+                hr
+        block content 
+        block script 
+        hr
+        div#Bottom 
+            h4 All rights reserved 
+            p Dancing club Copyright © 2024 - 2025

@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+}
+#d1{
+    display:flex;
+    flex-direction: column;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+}
+input{
+    border: 2px solid white;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+textarea{
+    border: 2px solid white;
+    padding: 12px;
+    margin: 8px;
+    width: 551px;
+    height: 166px;
+    border-radius: 5px;
+    resize: none;
+}
+#submit:hover{
+    color:pink;
+    cursor: pointer;
+}

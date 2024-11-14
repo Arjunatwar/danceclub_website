@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12%;
+    padding-left: 38px;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: red;
+}
+
+.mid h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    margin-top: 25%;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    color: white;
+    margin-right: 233px;
+}
+
+nav img {
+    height: 33px;
+    width: 33px;
+    padding-right: 4px;
+}
+
+#login a{
+    color:white;
+    text-decoration: none;
+}
+
+#box::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-image: url(../static/img/bg1.jpg);
+    z-index: -1;
+    opacity: 12px;
+}
+
+#box {
+    justify-content: center;
+    align-items: center;
+}
+
+#join {
+    display: flex;
+    color: white;
+    padding-top: 14px;
+}
+
+.mid {
+    display: flex;
+    text-align: center;
+}
+
+#join a {
+    text-decoration: none;
+    color: white;
+    padding-left: 115px;
+}
+
+#join a:hover{
+    animation: color 3s ease-in-out infinite;
+    transition: all .2s ease-in-out;
+}
+
+@keyframes color{
+    0%{
+        color: orange;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color:green;
+    }
+    75%{
+        color:pink;
+    }
+    100%{
+        color:violet;
+    }
+}
+#know{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    height: 53vh;
+    width: 100%;
+    margin-top: 50px;
+}
+section{
+    margin-top:50px;
+    color: white;
+}
+h2{
+    font-weight: bold;
+
+}
+#detail{
+    padding: 5px 50px;
+    font-family: "Playfair Display", serif;
+}
+#foot{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer img{
+    height: 220px;
+    width: 263px;
+    margin: 25px;
+}
+#Bottom{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+hr{
+    background-color: gray;
+}
+a img:hover{
+    height:250px;
+    width: 280px;
+    margin: 30px;
+    transition: all .2s ease-in-out;
+}

@@ -1,0 +1,16 @@
+extend base.pug 
+block style 
+    style 
+        include ../static/css/base.css
+    style 
+        include ../static/css/contact.css
+block content 
+    div#d1
+        h1 contact us
+        form(action="/contact" method="post")
+            input(type="text", name='Name', placeholder='Name', required)
+            input(type="number", name='Age', placeholder='Age', required)
+            input(type="text", name='Address', placeholder='Address', required)
+            input(type="email", name='email', placeholder='Email', required)
+            textarea(name="more", placeholder='more about you')  
+            input#submit(type="submit", value="Submit")

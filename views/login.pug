@@ -1,0 +1,14 @@
+extend base.pug
+block style 
+    style 
+        include ../static/css/base.css
+        include ../static/css/login.css
+block content
+    div.main#logindetail
+        h1 Login
+        form(action="/login" method="post")
+            input(type="text", name = 'name', placeholder='username', required)
+            input(type="number", name = 'age', placeholder='Age', required)
+            input(type="email", name = 'email', placeholder='Email', required)
+            input(type="submit", value="submit")
+            span: a(href="/register") register
