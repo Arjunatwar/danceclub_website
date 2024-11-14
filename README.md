@@ -1,0 +1,1 @@
+please run npm i in your power shell or in cmd to install some dependencies to run this program and also install and run mongo db service for the storage of the data given by the website for database.
